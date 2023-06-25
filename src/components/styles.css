@@ -1,0 +1,29 @@
+.fileUpload {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fileUpload > * {
+    margin: 1rem;
+}
+
+input, button, table {
+    border: 0;
+    box-shadow: 0px 0px 5px 0px #aeaeae;
+    padding: 1rem;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer;
+}
+
+.csvTableWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.csvTableWrapper table td {
+    padding: 1rem 2.5rem;
+}
